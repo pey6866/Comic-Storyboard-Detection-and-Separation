@@ -1,0 +1,38 @@
+# Environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.idea/
+.vscode/
+# Local inputs, inference outputs and private annotation history
+漫画/*
+!漫画/README.md
+outputs/
+evaluation/annotations/
+evaluation/runs/
+evaluation/dev_truth.json
+evaluation/test_truth.json
+evaluation/metrics.json
+evaluation/synthetic/
+docs/skill_reuse/runs/
+docs/skill_reuse/latest_run.json
+# Model weights are downloaded separately
+models/*.onnx
+models/*.download
+*.pt
+*.pth
+*.cbz
+*.cbr
+# Credentials and temporary files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.log
+*.tmp
+~$*
+.DS_Store
+Thumbs.db
