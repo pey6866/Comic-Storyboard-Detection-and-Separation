@@ -1,0 +1,529 @@
+{
+  "created_at": "2026-11-12T22:03:50.112042+08:00",
+  "skill": {
+    "revision": "11e45578024f8bcfdcf1ff3faf2d9e8a80e3c919",
+    "acquired_at": "2026-11-12T22:03:49.8255677+08:00",
+    "repository": "http<LOCAL_PATH_REDACTED>",
+    "sha256": {
+      "SKILL.md": "030ac0a236ebcc00665177c2dc869391a28404d10abba1131cf0ebe6e5d5cd38",
+      "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    "skill_path": "skills/yolo-inference/SKILL.md",
+    "license": "AGPL-3.0 (repository LICENSE)"
+  },
+  "role": "development guidance adapted to ONNX Runtime; not runtime skill loading",
+  "command": [
+    "<LOCAL_PATH_REDACTED>",
+    "scripts/verify_skill_reuse.py"
+  ],
+  "python": "3.9.13 (tags/v3.9.13:6de2ca5, May 17 2022, 16:36:42) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "dependencies": {
+    "numpy": "1.26.4",
+    "Pillow": "11.3.0",
+    "onnxruntime": "1.19.2",
+    "opencv-python-headless": "4.11.0.86"
+  },
+  "code_sha256": {
+    "panel_assistant.py": "73d5ff92cd7fbe1c9284a1e18174452aeffd7aacd65b84d1d1786bcde02a45be",
+    "scripts/verify_skill_reuse.py": "3a8b0dfd6b7d8a31853bd9488ca3e5bd9d4c5936462fca4ad96fb2e714030f75"
+  },
+  "limitations": [
+    "No manual ground truth",
+    "No Precision/Recall/F1",
+    "No Ultralytics Python Results API invoked"
+  ],
+  "checks": [
+    {
+      "name": "checkpoint_input_size",
+      "passed": true,
+      "detail": {
+        "actual": 640,
+        "checkpoint": "[640, 640]"
+      }
+    },
+    {
+      "name": "raw_output_requires_external_nms",
+      "passed": true,
+      "detail": {
+        "export_args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+        "note": "YOLOv8 raw [1,5,N] confirmed by successful detect; not YOLO26 NMS-free head"
+      }
+    },
+    {
+      "name": "rgb_nchw_normalization",
+      "passed": true,
+      "detail": {
+        "red_pixel_channels": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      }
+    },
+    {
+      "name": "letterbox_coordinate_roundtrip",
+      "passed": true,
+      "detail": {
+        "expected_top_left_xywh": [
+          50,
+          100,
+          100,
+          200
+        ],
+        "actual": [
+          49,
+          100,
+          101,
+          201
+        ],
+        "tolerance_pixels": 1
+      }
+    },
+    {
+      "name": "normal_inference",
+      "passed": true,
+      "detail": "success"
+    },
+    {
+      "name": "normal_export_coordinates",
+      "passed": true,
+      "detail": "All crops equal original-oriented RGB regions; empty set is valid"
+    },
+    {
+      "name": "real_low_score_review",
+      "passed": true,
+      "detail": [
+        "low_confidence",
+        "suspicious_thin_box"
+      ]
+    },
+    {
+      "name": "low_score_export_coordinates",
+      "passed": true,
+      "detail": "All crops equal original-oriented RGB regions; empty set is valid"
+    },
+    {
+      "name": "empty_result_review",
+      "passed": true,
+      "detail": [
+        "no_detections"
+      ]
+    },
+    {
+      "name": "blank_export_coordinates",
+      "passed": true,
+      "detail": "All crops equal original-oriented RGB regions; empty set is valid"
+    },
+    {
+      "name": "corrupt_image_failure_recorded",
+      "passed": true,
+      "detail": [
+        "UnidentifiedImageError: cannot identify image file '<LOCAL_PATH_REDACTED>"
+      ]
+    },
+    {
+      "name": "confidence_filter_behavior",
+      "passed": true,
+      "detail": {
+        "0.1": 6,
+        "0.25": 6,
+        "0.5": 4
+      }
+    },
+    {
+      "name": "nms_comparison_recorded",
+      "passed": true,
+      "detail": {
+        "0.45": 6,
+        "0.3": 5,
+        "0.6": 7
+      }
+    }
+  ],
+  "cases": [
+    {
+      "case": "normal",
+      "status": "success",
+      "warnings": [],
+      "panels": 6,
+      "elapsed_ms": 386.31110000000007,
+      "result": "normal\\page_06_3434c532ab8c\\result.json"
+    },
+    {
+      "case": "low_score",
+      "status": "needs_review",
+      "warnings": [
+        "low_confidence",
+        "suspicious_thin_box"
+      ],
+      "panels": 6,
+      "elapsed_ms": 335.61600000000004,
+      "result": "low_score\\page_09_795a3f0a6e82\\result.json"
+    },
+    {
+      "case": "blank",
+      "status": "needs_review",
+      "warnings": [
+        "no_detections"
+      ],
+      "panels": 0,
+      "elapsed_ms": 63.26069999999984,
+      "result": "blank\\blank_e835b9e07f32\\result.json"
+    },
+    {
+      "case": "corrupt",
+      "status": "failed",
+      "warnings": [
+        "UnidentifiedImageError: cannot identify image file '<LOCAL_PATH_REDACTED>"
+      ],
+      "panels": 0,
+      "elapsed_ms": 31.626299999999887,
+      "result": "corrupt\\corrupt_d1edfa4e50bb\\result.json"
+    }
+  ],
+  "comparisons": [
+    {
+      "confidence": 0.1,
+      "nms": 0.45,
+      "count": 6,
+      "panels": [
+        {
+          "bbox": [
+            15,
+            20,
+            327,
+            538
+          ],
+          "confidence": 0.9578752517700195
+        },
+        {
+          "bbox": [
+            582,
+            20,
+            320,
+            536
+          ],
+          "confidence": 0.9541839361190796
+        },
+        {
+          "bbox": [
+            311,
+            20,
+            292,
+            497
+          ],
+          "confidence": 0.9478399753570557
+        },
+        {
+          "bbox": [
+            32,
+            532,
+            870,
+            808
+          ],
+          "confidence": 0.6962278485298157
+        },
+        {
+          "bbox": [
+            918,
+            7,
+            3,
+            1347
+          ],
+          "confidence": 0.34833455085754395
+        },
+        {
+          "bbox": [
+            920,
+            16,
+            1,
+            1326
+          ],
+          "confidence": 0.3312899172306061
+        }
+      ]
+    },
+    {
+      "confidence": 0.25,
+      "nms": 0.45,
+      "count": 6,
+      "panels": [
+        {
+          "bbox": [
+            15,
+            20,
+            327,
+            538
+          ],
+          "confidence": 0.9578752517700195
+        },
+        {
+          "bbox": [
+            582,
+            20,
+            320,
+            536
+          ],
+          "confidence": 0.9541839361190796
+        },
+        {
+          "bbox": [
+            311,
+            20,
+            292,
+            497
+          ],
+          "confidence": 0.9478399753570557
+        },
+        {
+          "bbox": [
+            32,
+            532,
+            870,
+            808
+          ],
+          "confidence": 0.6962278485298157
+        },
+        {
+          "bbox": [
+            918,
+            7,
+            3,
+            1347
+          ],
+          "confidence": 0.34833455085754395
+        },
+        {
+          "bbox": [
+            920,
+            16,
+            1,
+            1326
+          ],
+          "confidence": 0.3312899172306061
+        }
+      ]
+    },
+    {
+      "confidence": 0.5,
+      "nms": 0.45,
+      "count": 4,
+      "panels": [
+        {
+          "bbox": [
+            15,
+            20,
+            327,
+            538
+          ],
+          "confidence": 0.9578752517700195
+        },
+        {
+          "bbox": [
+            582,
+            20,
+            320,
+            536
+          ],
+          "confidence": 0.9541839361190796
+        },
+        {
+          "bbox": [
+            311,
+            20,
+            292,
+            497
+          ],
+          "confidence": 0.9478399753570557
+        },
+        {
+          "bbox": [
+            32,
+            532,
+            870,
+            808
+          ],
+          "confidence": 0.6962278485298157
+        }
+      ]
+    },
+    {
+      "confidence": 0.25,
+      "nms": 0.3,
+      "count": 5,
+      "panels": [
+        {
+          "bbox": [
+            15,
+            20,
+            327,
+            538
+          ],
+          "confidence": 0.9578752517700195
+        },
+        {
+          "bbox": [
+            582,
+            20,
+            320,
+            536
+          ],
+          "confidence": 0.9541839361190796
+        },
+        {
+          "bbox": [
+            311,
+            20,
+            292,
+            497
+          ],
+          "confidence": 0.9478399753570557
+        },
+        {
+          "bbox": [
+            32,
+            532,
+            870,
+            808
+          ],
+          "confidence": 0.6962278485298157
+        },
+        {
+          "bbox": [
+            918,
+            7,
+            3,
+            1347
+          ],
+          "confidence": 0.34833455085754395
+        }
+      ]
+    },
+    {
+      "confidence": 0.25,
+      "nms": 0.6,
+      "count": 7,
+      "panels": [
+        {
+          "bbox": [
+            15,
+            20,
+            327,
+            538
+          ],
+          "confidence": 0.9578752517700195
+        },
+        {
+          "bbox": [
+            582,
+            20,
+            320,
+            536
+          ],
+          "confidence": 0.9541839361190796
+        },
+        {
+          "bbox": [
+            311,
+            20,
+            292,
+            497
+          ],
+          "confidence": 0.9478399753570557
+        },
+        {
+          "bbox": [
+            32,
+            532,
+            870,
+            808
+          ],
+          "confidence": 0.6962278485298157
+        },
+        {
+          "bbox": [
+            918,
+            7,
+            3,
+            1347
+          ],
+          "confidence": 0.34833455085754395
+        },
+        {
+          "bbox": [
+            920,
+            16,
+            1,
+            1326
+          ],
+          "confidence": 0.3312899172306061
+        },
+        {
+          "bbox": [
+            16,
+            534,
+            572,
+            768
+          ],
+          "confidence": 0.2941831946372986
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "source": "withheld/page_06.jpg",
+      "sha256": "67bf5c093bfaacbf776fc5e5667c02dc68873de8ef9ac8f52052b743c09978ae",
+      "split": "existing development subset"
+    },
+    {
+      "source": "withheld/page_09.jpg",
+      "sha256": "12e912fd209867d918a2b27d73f82de356697ec76d547225be375d50a4091d7d",
+      "split": "existing development subset"
+    }
+  ],
+  "model_load_ms": 103.62699999999997,
+  "model": {
+    "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "input_shape": [
+      "batch",
+      3,
+      "height",
+      "width"
+    ],
+    "custom_metadata": {
+      "date": "2026-05-31T11:35:34.809288",
+      "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+      "author": "Ultralytics",
+      "version": "8.4.43",
+      "task": "detect",
+      "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+      "docs": "http<LOCAL_PATH_REDACTED>",
+      "stride": "32",
+      "batch": "1",
+      "imgsz": "[640, 640]",
+      "names": "{0: 'panel'}",
+      "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+      "channels": "3",
+      "end2end": "False"
+    }
+  },
+  "benchmark": {
+    "warmup_ms": 52.72539999999992,
+    "repetitions": 5,
+    "scope": "CPU preprocess + session.run + restore + NMS; excludes model load, image IO and plotting",
+    "samples_ms": [
+      53.36200000000013,
+      55.116399999999956,
+      45.13319999999999,
+      58.44129999999992,
+      53.910799999999924
+    ],
+    "mean_ms": 53.19273999999998
+  },
+  "all_passed": true
+}

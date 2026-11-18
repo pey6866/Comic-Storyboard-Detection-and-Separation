@@ -1,0 +1,1651 @@
+{
+  "pages": [
+    {
+      "source": "withheld/page_13.jpg",
+      "page_id": "page_13_d2c9ca18ab89",
+      "image_size": [
+        914,
+        1358
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            614,
+            18,
+            285,
+            435
+          ],
+          "confidence": 0.9812824726104736,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            389,
+            467,
+            250,
+            422
+          ],
+          "confidence": 0.979534387588501,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            466,
+            905,
+            432,
+            433
+          ],
+          "confidence": 0.9791199564933777,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            322,
+            18,
+            282,
+            434
+          ],
+          "confidence": 0.9783020615577698,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            647,
+            469,
+            252,
+            422
+          ],
+          "confidence": 0.9752328395843506,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            18,
+            903,
+            440,
+            433
+          ],
+          "confidence": 0.974202036857605,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            16,
+            18,
+            296,
+            434
+          ],
+          "confidence": 0.972758948802948,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            16,
+            467,
+            364,
+            423
+          ],
+          "confidence": 0.9618409276008606,
+          "crop_file": "panel_008.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 80.77800000000046,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 482.653899999999
+    },
+    {
+      "source": "withheld/page_14.jpg",
+      "page_id": "page_14_72bf33c28fda",
+      "image_size": [
+        914,
+        1346
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            613,
+            459,
+            287,
+            422
+          ],
+          "confidence": 0.9807931780815125,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            17,
+            10,
+            530,
+            438
+          ],
+          "confidence": 0.9803507328033447,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            562,
+            896,
+            341,
+            434
+          ],
+          "confidence": 0.976706862449646,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            24,
+            898,
+            530,
+            432
+          ],
+          "confidence": 0.9749563932418823,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            20,
+            461,
+            292,
+            421
+          ],
+          "confidence": 0.9734483957290649,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            558,
+            11,
+            340,
+            436
+          ],
+          "confidence": 0.9688222408294678,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            317,
+            460,
+            288,
+            426
+          ],
+          "confidence": 0.9593561291694641,
+          "crop_file": "panel_007.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 82.17789999999958,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 474.2701999999994
+    },
+    {
+      "source": "withheld/page_15.jpg",
+      "page_id": "page_15_c9fa3011dea8",
+      "image_size": [
+        914,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            615,
+            903,
+            286,
+            432
+          ],
+          "confidence": 0.9858502745628357,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            384,
+            18,
+            515,
+            210
+          ],
+          "confidence": 0.9835144281387329,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            614,
+            466,
+            287,
+            421
+          ],
+          "confidence": 0.9811447858810425,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            17,
+            17,
+            359,
+            437
+          ],
+          "confidence": 0.978173553943634,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            322,
+            467,
+            284,
+            416
+          ],
+          "confidence": 0.9780494570732117,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            323,
+            903,
+            284,
+            432
+          ],
+          "confidence": 0.9763742685317993,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            18,
+            465,
+            297,
+            420
+          ],
+          "confidence": 0.9754557013511658,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            19,
+            901,
+            295,
+            432
+          ],
+          "confidence": 0.9739702343940735,
+          "crop_file": "panel_008.png"
+        },
+        {
+          "id": 9,
+          "bbox": [
+            385,
+            239,
+            514,
+            215
+          ],
+          "confidence": 0.9715591073036194,
+          "crop_file": "panel_009.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 86.4615999999998,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 487.33209999999974
+    },
+    {
+      "source": "withheld/page_16.jpg",
+      "page_id": "page_16_4eb976561bed",
+      "image_size": [
+        917,
+        1373
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            383,
+            679,
+            519,
+            312
+          ],
+          "confidence": 0.9629271030426025,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            383,
+            351,
+            518,
+            317
+          ],
+          "confidence": 0.9543215036392212,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            383,
+            14,
+            518,
+            325
+          ],
+          "confidence": 0.9517374038696289,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            381,
+            981,
+            519,
+            366
+          ],
+          "confidence": 0.9258372187614441,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            18,
+            0,
+            357,
+            1309
+          ],
+          "confidence": 0.9040182828903198,
+          "crop_file": "panel_005.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 83.27380000000062,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 476.48319999999876
+    },
+    {
+      "source": "withheld/page_17.jpg",
+      "page_id": "page_17_b479b65bea58",
+      "image_size": [
+        914,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            402,
+            19,
+            492,
+            232
+          ],
+          "confidence": 0.9824037551879883,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            680,
+            905,
+            217,
+            432
+          ],
+          "confidence": 0.981395959854126,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            686,
+            497,
+            211,
+            392
+          ],
+          "confidence": 0.9764724373817444,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            15,
+            18,
+            378,
+            461
+          ],
+          "confidence": 0.9745892286300659,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            240,
+            905,
+            211,
+            430
+          ],
+          "confidence": 0.9734381437301636,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            461,
+            905,
+            212,
+            431
+          ],
+          "confidence": 0.9700448513031006,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            16,
+            493,
+            452,
+            396
+          ],
+          "confidence": 0.9696570038795471,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            15,
+            905,
+            219,
+            429
+          ],
+          "confidence": 0.968505322933197,
+          "crop_file": "panel_008.png"
+        },
+        {
+          "id": 9,
+          "bbox": [
+            477,
+            495,
+            202,
+            392
+          ],
+          "confidence": 0.9676420092582703,
+          "crop_file": "panel_009.png"
+        },
+        {
+          "id": 10,
+          "bbox": [
+            402,
+            258,
+            497,
+            225
+          ],
+          "confidence": 0.9398834109306335,
+          "crop_file": "panel_010.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 82.55529999999922,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 449.5369999999994
+    },
+    {
+      "source": "withheld/page_18.jpg",
+      "page_id": "page_18_d12b8f78ebed",
+      "image_size": [
+        917,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "needs_review",
+      "warnings": [
+        "no_detections"
+      ],
+      "panels": [],
+      "human_verified": false,
+      "inference_ms": 79.39819999999997,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 363.08430000000055
+    },
+    {
+      "source": "withheld/page_19.jpg",
+      "page_id": "page_19_6f052deab4b2",
+      "image_size": [
+        912,
+        1378
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            14,
+            12,
+            433,
+            438
+          ],
+          "confidence": 0.9762474298477173,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            455,
+            12,
+            442,
+            438
+          ],
+          "confidence": 0.9754592776298523,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            15,
+            768,
+            361,
+            594
+          ],
+          "confidence": 0.9706960320472717,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            385,
+            1070,
+            511,
+            294
+          ],
+          "confidence": 0.9626527428627014,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            384,
+            767,
+            512,
+            291
+          ],
+          "confidence": 0.9559805393218994,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            18,
+            453,
+            879,
+            320
+          ],
+          "confidence": 0.8947904109954834,
+          "crop_file": "panel_006.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 82.32319999999937,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 474.0926000000005
+    },
+    {
+      "source": "withheld/page_20.jpg",
+      "page_id": "page_20_07ac49dfbd0e",
+      "image_size": [
+        923,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            372,
+            938,
+            242,
+            393
+          ],
+          "confidence": 0.9804642200469971,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            623,
+            938,
+            285,
+            395
+          ],
+          "confidence": 0.9788616299629211,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            326,
+            14,
+            576,
+            496
+          ],
+          "confidence": 0.9734903573989868,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            23,
+            520,
+            340,
+            814
+          ],
+          "confidence": 0.9731746912002563,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            19,
+            15,
+            299,
+            495
+          ],
+          "confidence": 0.9716730713844299,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            370,
+            522,
+            532,
+            251
+          ],
+          "confidence": 0.971275806427002,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            373,
+            785,
+            530,
+            142
+          ],
+          "confidence": 0.9680930376052856,
+          "crop_file": "panel_007.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 84.33359999999901,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 438.0886999999998
+    },
+    {
+      "source": "withheld/page_21.jpg",
+      "page_id": "page_21_0f77c839f2c4",
+      "image_size": [
+        912,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            433,
+            12,
+            464,
+            229
+          ],
+          "confidence": 0.9840974807739258,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            434,
+            254,
+            225,
+            498
+          ],
+          "confidence": 0.9834773540496826,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            667,
+            254,
+            230,
+            499
+          ],
+          "confidence": 0.9821925163269043,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            385,
+            769,
+            513,
+            564
+          ],
+          "confidence": 0.9813754558563232,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            15,
+            18,
+            408,
+            734
+          ],
+          "confidence": 0.9764394760131836,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            15,
+            768,
+            172,
+            565
+          ],
+          "confidence": 0.971476137638092,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            191,
+            769,
+            183,
+            565
+          ],
+          "confidence": 0.9504354000091553,
+          "crop_file": "panel_007.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 80.29920000000068,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 428.38419999999996
+    },
+    {
+      "source": "withheld/page_22.jpg",
+      "page_id": "page_22_fced36022872",
+      "image_size": [
+        921,
+        1349
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            13,
+            14,
+            464,
+            421
+          ],
+          "confidence": 0.9747307300567627,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            375,
+            443,
+            170,
+            548
+          ],
+          "confidence": 0.9721701145172119,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            489,
+            13,
+            408,
+            421
+          ],
+          "confidence": 0.9676625728607178,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            199,
+            445,
+            172,
+            553
+          ],
+          "confidence": 0.965492308139801,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            17,
+            447,
+            175,
+            549
+          ],
+          "confidence": 0.9568464756011963,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            23,
+            1005,
+            877,
+            327
+          ],
+          "confidence": 0.9528313875198364,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            551,
+            446,
+            198,
+            550
+          ],
+          "confidence": 0.9069586992263794,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            747,
+            447,
+            156,
+            549
+          ],
+          "confidence": 0.8436314463615417,
+          "crop_file": "panel_008.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 80.99580000000017,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 464.76820000000174
+    },
+    {
+      "source": "withheld/page_23.jpg",
+      "page_id": "page_23_58b3aadfe015",
+      "image_size": [
+        923,
+        1358
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            19,
+            21,
+            536,
+            416
+          ],
+          "confidence": 0.9842069149017334,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            21,
+            885,
+            448,
+            455
+          ],
+          "confidence": 0.97896808385849,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            563,
+            22,
+            340,
+            415
+          ],
+          "confidence": 0.9786046147346497,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            478,
+            887,
+            423,
+            453
+          ],
+          "confidence": 0.9740743041038513,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            21,
+            450,
+            881,
+            214
+          ],
+          "confidence": 0.9519925713539124,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            21,
+            679,
+            880,
+            190
+          ],
+          "confidence": 0.9389960765838623,
+          "crop_file": "panel_006.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 82.157500000001,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 460.14219999999995
+    },
+    {
+      "source": "withheld/page_24.jpg",
+      "page_id": "page_24_70f9a33a3f86",
+      "image_size": [
+        923,
+        1355
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            23,
+            690,
+            438,
+            652
+          ],
+          "confidence": 0.9788405895233154,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            478,
+            687,
+            426,
+            653
+          ],
+          "confidence": 0.976024866104126,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            18,
+            22,
+            438,
+            655
+          ],
+          "confidence": 0.9746733903884888,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            474,
+            21,
+            426,
+            653
+          ],
+          "confidence": 0.9741306900978088,
+          "crop_file": "panel_004.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 82.78329999999912,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 478.35189999999983
+    },
+    {
+      "source": "withheld/page_25.jpg",
+      "page_id": "page_25_269350d2f723",
+      "image_size": [
+        910,
+        1378
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "inkwell_selected",
+      "model_revision": {
+        "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+        "providers": [
+          "CPUExecutionProvider"
+        ],
+        "input_shape": [
+          "batch",
+          3,
+          "height",
+          "width"
+        ],
+        "custom_metadata": {
+          "date": "2026-05-31T11:35:34.809288",
+          "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+          "author": "Ultralytics",
+          "version": "8.4.43",
+          "task": "detect",
+          "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+          "docs": "http<LOCAL_PATH_REDACTED>",
+          "stride": "32",
+          "batch": "1",
+          "imgsz": "[640, 640]",
+          "names": "{0: 'panel'}",
+          "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+          "channels": "3",
+          "end2end": "False"
+        }
+      },
+      "parameters": {
+        "confidence": 0.4,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            18,
+            815,
+            881,
+            249
+          ],
+          "confidence": 0.9612154364585876,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            17,
+            549,
+            879,
+            253
+          ],
+          "confidence": 0.9529662132263184,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            19,
+            1079,
+            880,
+            283
+          ],
+          "confidence": 0.947421133518219,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            14,
+            9,
+            881,
+            282
+          ],
+          "confidence": 0.913893461227417,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            13,
+            284,
+            882,
+            252
+          ],
+          "confidence": 0.9067922830581665,
+          "crop_file": "panel_005.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 82.39190000000107,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 463.92820000000154
+    }
+  ],
+  "model": {
+    "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "input_shape": [
+      "batch",
+      3,
+      "height",
+      "width"
+    ],
+    "custom_metadata": {
+      "date": "2026-05-31T11:35:34.809288",
+      "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+      "author": "Ultralytics",
+      "version": "8.4.43",
+      "task": "detect",
+      "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+      "docs": "http<LOCAL_PATH_REDACTED>",
+      "stride": "32",
+      "batch": "1",
+      "imgsz": "[640, 640]",
+      "names": "{0: 'panel'}",
+      "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+      "channels": "3",
+      "end2end": "False"
+    }
+  },
+  "timing": "warm model; inference_ms includes preprocess/run/NMS; elapsed_ms includes IO and all image exports; excludes model loading"
+}

@@ -1,0 +1,31 @@
+{
+  "repository": "cedarrapidsboy/inkwell-panel-models",
+  "revision": "fa7afba52ba7dc7b0840c7702b767972b5e17a9b",
+  "file": "best.onnx",
+  "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "input_shape": [
+    "batch",
+    3,
+    "height",
+    "width"
+  ],
+  "custom_metadata": {
+    "date": "2026-05-31T11:35:34.809288",
+    "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+    "author": "Ultralytics",
+    "version": "8.4.43",
+    "task": "detect",
+    "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+    "docs": "http<LOCAL_PATH_REDACTED>",
+    "stride": "32",
+    "batch": "1",
+    "imgsz": "[640, 640]",
+    "names": "{0: 'panel'}",
+    "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+    "channels": "3",
+    "end2end": "False"
+  }
+}

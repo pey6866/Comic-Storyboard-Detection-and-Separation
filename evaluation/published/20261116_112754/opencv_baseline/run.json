@@ -1,0 +1,1259 @@
+{
+  "pages": [
+    {
+      "source": "withheld/page_13.jpg",
+      "page_id": "page_13_d2c9ca18ab89",
+      "image_size": [
+        914,
+        1358
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            467,
+            907,
+            431,
+            431
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            18,
+            905,
+            439,
+            430
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            648,
+            472,
+            250,
+            417
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            390,
+            471,
+            249,
+            417
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            17,
+            469,
+            364,
+            419
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            615,
+            20,
+            284,
+            432
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            322,
+            19,
+            284,
+            432
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            15,
+            17,
+            297,
+            433
+          ],
+          "confidence": null,
+          "crop_file": "panel_008.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 6.154300000002166,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 404.0959999999991
+    },
+    {
+      "source": "withheld/page_14.jpg",
+      "page_id": "page_14_72bf33c28fda",
+      "image_size": [
+        914,
+        1346
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            20,
+            900,
+            536,
+            432
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            562,
+            899,
+            342,
+            429
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            319,
+            464,
+            288,
+            418
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            18,
+            464,
+            295,
+            419
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            612,
+            463,
+            290,
+            418
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            12,
+            13,
+            537,
+            435
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            556,
+            11,
+            342,
+            435
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 6.357200000000063,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 389.0158000000028
+    },
+    {
+      "source": "withheld/page_15.jpg",
+      "page_id": "page_15_c9fa3011dea8",
+      "image_size": [
+        914,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            616,
+            905,
+            284,
+            430
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            322,
+            905,
+            286,
+            430
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            18,
+            904,
+            297,
+            430
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            615,
+            469,
+            285,
+            419
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            321,
+            469,
+            287,
+            418
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            17,
+            464,
+            298,
+            422
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            383,
+            18,
+            518,
+            435
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            17,
+            18,
+            359,
+            434
+          ],
+          "confidence": null,
+          "crop_file": "panel_008.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.301700000000409,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 393.78250000000037
+    },
+    {
+      "source": "withheld/page_16.jpg",
+      "page_id": "page_16_4eb976561bed",
+      "image_size": [
+        917,
+        1373
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            382,
+            681,
+            519,
+            685
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            383,
+            353,
+            520,
+            316
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            383,
+            15,
+            519,
+            324
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            17,
+            14,
+            359,
+            1317
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 6.354599999998101,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 423.9636999999981
+    },
+    {
+      "source": "withheld/page_17.jpg",
+      "page_id": "page_17_b479b65bea58",
+      "image_size": [
+        914,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            461,
+            907,
+            215,
+            430
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            681,
+            906,
+            216,
+            433
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            14,
+            905,
+            439,
+            432
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            686,
+            497,
+            211,
+            392
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            479,
+            497,
+            202,
+            392
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            14,
+            494,
+            456,
+            395
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            400,
+            258,
+            498,
+            232
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            15,
+            19,
+            378,
+            459
+          ],
+          "confidence": null,
+          "crop_file": "panel_008.png"
+        },
+        {
+          "id": 9,
+          "bbox": [
+            400,
+            15,
+            498,
+            237
+          ],
+          "confidence": null,
+          "crop_file": "panel_009.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.801299999998122,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 401.49470000000065
+    },
+    {
+      "source": "withheld/page_18.jpg",
+      "page_id": "page_18_d12b8f78ebed",
+      "image_size": [
+        917,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            13,
+            11,
+            892,
+            1323
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 6.222799999999751,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 426.797999999998
+    },
+    {
+      "source": "withheld/page_19.jpg",
+      "page_id": "page_19_6f052deab4b2",
+      "image_size": [
+        912,
+        1378
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            385,
+            1073,
+            513,
+            295
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            15,
+            770,
+            362,
+            593
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            15,
+            13,
+            883,
+            1045
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            13,
+            13,
+            436,
+            437
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 6.707999999999714,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 448.76059999999995
+    },
+    {
+      "source": "withheld/page_20.jpg",
+      "page_id": "page_20_07ac49dfbd0e",
+      "image_size": [
+        923,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            621,
+            941,
+            287,
+            394
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            371,
+            941,
+            244,
+            391
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            371,
+            788,
+            534,
+            139
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            22,
+            527,
+            342,
+            807
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            367,
+            525,
+            538,
+            248
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            325,
+            16,
+            579,
+            494
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            19,
+            16,
+            300,
+            494
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 6.059000000000481,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 386.48520000000275
+    },
+    {
+      "source": "withheld/page_21.jpg",
+      "page_id": "page_21_0f77c839f2c4",
+      "image_size": [
+        912,
+        1351
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            194,
+            770,
+            182,
+            562
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            17,
+            770,
+            170,
+            563
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            384,
+            768,
+            516,
+            566
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            433,
+            256,
+            226,
+            497
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            667,
+            255,
+            231,
+            498
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            432,
+            15,
+            465,
+            225
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            14,
+            15,
+            411,
+            737
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.413499999999516,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 375.60530000000017
+    },
+    {
+      "source": "withheld/page_22.jpg",
+      "page_id": "page_22_fced36022872",
+      "image_size": [
+        921,
+        1349
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            19,
+            1008,
+            886,
+            326
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            16,
+            451,
+            178,
+            544
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            375,
+            449,
+            171,
+            545
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            198,
+            449,
+            172,
+            545
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            747,
+            448,
+            154,
+            544
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            550,
+            448,
+            193,
+            545
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        },
+        {
+          "id": 7,
+          "bbox": [
+            486,
+            15,
+            412,
+            416
+          ],
+          "confidence": null,
+          "crop_file": "panel_007.png"
+        },
+        {
+          "id": 8,
+          "bbox": [
+            10,
+            11,
+            470,
+            423
+          ],
+          "confidence": null,
+          "crop_file": "panel_008.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.337800000003057,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 415.3712000000027
+    },
+    {
+      "source": "withheld/page_23.jpg",
+      "page_id": "page_23_58b3aadfe015",
+      "image_size": [
+        923,
+        1358
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            477,
+            887,
+            425,
+            452
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            21,
+            887,
+            449,
+            452
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            19,
+            682,
+            883,
+            187
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            18,
+            453,
+            885,
+            211
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        },
+        {
+          "id": 5,
+          "bbox": [
+            562,
+            23,
+            340,
+            413
+          ],
+          "confidence": null,
+          "crop_file": "panel_005.png"
+        },
+        {
+          "id": 6,
+          "bbox": [
+            16,
+            22,
+            540,
+            413
+          ],
+          "confidence": null,
+          "crop_file": "panel_006.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.161499999999819,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 411.7663
+    },
+    {
+      "source": "withheld/page_24.jpg",
+      "page_id": "page_24_70f9a33a3f86",
+      "image_size": [
+        923,
+        1355
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            20,
+            691,
+            442,
+            650
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            476,
+            690,
+            429,
+            649
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            468,
+            23,
+            433,
+            649
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            15,
+            23,
+            443,
+            651
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.759600000001086,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 437.36379999999997
+    },
+    {
+      "source": "withheld/page_25.jpg",
+      "page_id": "page_25_269350d2f723",
+      "image_size": [
+        910,
+        1378
+      ],
+      "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+      "detector": "opencv_baseline",
+      "model_revision": {
+        "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+        "confidence": null
+      },
+      "parameters": {
+        "confidence": 0.25,
+        "nms": 0.45,
+        "review_threshold": 0.5
+      },
+      "status": "success",
+      "warnings": [],
+      "panels": [
+        {
+          "id": 1,
+          "bbox": [
+            17,
+            1080,
+            880,
+            287
+          ],
+          "confidence": null,
+          "crop_file": "panel_001.png"
+        },
+        {
+          "id": 2,
+          "bbox": [
+            16,
+            817,
+            881,
+            248
+          ],
+          "confidence": null,
+          "crop_file": "panel_002.png"
+        },
+        {
+          "id": 3,
+          "bbox": [
+            13,
+            549,
+            883,
+            254
+          ],
+          "confidence": null,
+          "crop_file": "panel_003.png"
+        },
+        {
+          "id": 4,
+          "bbox": [
+            14,
+            14,
+            882,
+            521
+          ],
+          "confidence": null,
+          "crop_file": "panel_004.png"
+        }
+      ],
+      "human_verified": false,
+      "inference_ms": 5.107800000001106,
+      "preview_files": {
+        "color": "preview.png",
+        "gray": "preview_gray.png",
+        "grayscale": "grayscale.png"
+      },
+      "elapsed_ms": 379.5035999999996
+    }
+  ],
+  "model": {
+    "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+    "confidence": null
+  },
+  "timing": "warm model; inference_ms includes preprocess/run/NMS; elapsed_ms includes IO and all image exports; excludes model loading"
+}

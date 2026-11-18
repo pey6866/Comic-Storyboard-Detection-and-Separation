@@ -1,0 +1,81 @@
+{
+  "grid": [
+    {
+      "confidence": 0.1,
+      "nms": 0.3
+    },
+    {
+      "confidence": 0.1,
+      "nms": 0.45
+    },
+    {
+      "confidence": 0.1,
+      "nms": 0.6
+    },
+    {
+      "confidence": 0.25,
+      "nms": 0.3
+    },
+    {
+      "confidence": 0.25,
+      "nms": 0.45
+    },
+    {
+      "confidence": 0.25,
+      "nms": 0.6
+    },
+    {
+      "confidence": 0.4,
+      "nms": 0.3
+    },
+    {
+      "confidence": 0.4,
+      "nms": 0.45
+    },
+    {
+      "confidence": 0.4,
+      "nms": 0.6
+    },
+    {
+      "confidence": 0.5,
+      "nms": 0.3
+    },
+    {
+      "confidence": 0.5,
+      "nms": 0.45
+    },
+    {
+      "confidence": 0.5,
+      "nms": 0.6
+    },
+    {
+      "confidence": 0.65,
+      "nms": 0.3
+    },
+    {
+      "confidence": 0.65,
+      "nms": 0.45
+    },
+    {
+      "confidence": 0.65,
+      "nms": 0.6
+    }
+  ],
+  "selection": "max dev micro-F1@.5, then precision, then proximity to defaults .25/.45",
+  "test_iou_thresholds": [
+    0.3,
+    0.5,
+    0.75
+  ],
+  "default": {
+    "confidence": 0.25,
+    "nms": 0.45
+  },
+  "imgsz": 640,
+  "annotation_policy": "Manual rough rectangles, no automatic relabeling; 95% is subjective",
+  "code_sha256": {
+    "panel_assistant.py": "73d5ff92cd7fbe1c9284a1e18174452aeffd7aacd65b84d1d1786bcde02a45be",
+    "evaluate.py": "e823f1f67edde6ed4d141adc39ac2a74a2985f3f6102e44dfb4d7a42690c766c",
+    "scripts/run_evaluation.py": "2c6114eeaa0215da5ecfc1f70650f779c36fc2a55eb7c0c8879ec3032931788c"
+  }
+}

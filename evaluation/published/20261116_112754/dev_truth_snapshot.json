@@ -1,0 +1,262 @@
+{
+  "pages": [
+    {
+      "id": "4582710a0994069f288dccd6",
+      "source": "withheld/page_12.jpg",
+      "source_sha256": "cc1966e6571f436e5e01fef0470aef19d09813050cfd4e15a0abbce5ccc4117e",
+      "image_size": [
+        934,
+        1346
+      ],
+      "bbox_format": "xywh",
+      "coordinate_system": "EXIF-oriented pixels",
+      "boxes": [
+        [
+          11,
+          0,
+          609,
+          450
+        ],
+        [
+          614,
+          3,
+          305,
+          447
+        ],
+        [
+          13,
+          438,
+          905,
+          338
+        ],
+        [
+          8,
+          776,
+          358,
+          558
+        ],
+        [
+          362,
+          776,
+          293,
+          561
+        ],
+        [
+          654,
+          778,
+          266,
+          557
+        ]
+      ],
+      "verified": true,
+      "split": "dev",
+      "notes": "",
+      "annotation_method": "manual_from_blank",
+      "updated_at": "2026-11-16T11:10:21.406099+08:00"
+    },
+    {
+      "id": "51e74945409e07189fd1697e",
+      "source": "withheld/page_11.jpg",
+      "source_sha256": "ce0692759a2a2c511824ee2607ea69683062a07250f995b4ef19cc041ab892e0",
+      "image_size": [
+        914,
+        1353
+      ],
+      "bbox_format": "xywh",
+      "coordinate_system": "EXIF-oriented pixels",
+      "boxes": [
+        [
+          7,
+          11,
+          385,
+          451
+        ],
+        [
+          387,
+          4,
+          518,
+          455
+        ],
+        [
+          3,
+          465,
+          396,
+          428
+        ],
+        [
+          394,
+          462,
+          511,
+          438
+        ],
+        [
+          0,
+          896,
+          473,
+          452
+        ],
+        [
+          348,
+          981,
+          271,
+          239
+        ],
+        [
+          470,
+          888,
+          441,
+          459
+        ]
+      ],
+      "verified": true,
+      "split": "dev",
+      "notes": "",
+      "annotation_method": "manual_from_blank",
+      "updated_at": "2026-11-16T11:04:59.718994+08:00"
+    },
+    {
+      "id": "a7ed2d647b21a18939a96d36",
+      "source": "withheld/page_06.jpg",
+      "source_sha256": "67bf5c093bfaacbf776fc5e5667c02dc68873de8ef9ac8f52052b743c09978ae",
+      "image_size": [
+        955,
+        1367
+      ],
+      "bbox_format": "xywh",
+      "coordinate_system": "EXIF-oriented pixels",
+      "boxes": [
+        [
+          14,
+          6,
+          465,
+          452
+        ],
+        [
+          480,
+          9,
+          458,
+          450
+        ],
+        [
+          9,
+          460,
+          472,
+          439
+        ],
+        [
+          479,
+          463,
+          469,
+          435
+        ],
+        [
+          5,
+          899,
+          474,
+          462
+        ],
+        [
+          476,
+          901,
+          472,
+          458
+        ]
+      ],
+      "verified": true,
+      "split": "dev",
+      "notes": "",
+      "annotation_method": "manual_from_blank",
+      "updated_at": "2026-11-16T11:02:49.473915+08:00"
+    },
+    {
+      "id": "ccc36403a25c33249d1771ff",
+      "source": "withheld/page_09.jpg",
+      "source_sha256": "12e912fd209867d918a2b27d73f82de356697ec76d547225be375d50a4091d7d",
+      "image_size": [
+        921,
+        1358
+      ],
+      "bbox_format": "xywh",
+      "coordinate_system": "EXIF-oriented pixels",
+      "boxes": [
+        [
+          5,
+          15,
+          345,
+          542
+        ],
+        [
+          290,
+          9,
+          338,
+          549
+        ],
+        [
+          566,
+          15,
+          339,
+          543
+        ],
+        [
+          1,
+          557,
+          910,
+          789
+        ]
+      ],
+      "verified": true,
+      "split": "dev",
+      "notes": "",
+      "annotation_method": "manual_from_blank",
+      "updated_at": "2026-11-16T11:03:48.918861+08:00"
+    },
+    {
+      "id": "def5c5fe0ffda4b659789313",
+      "source": "withheld/page_08.jpg",
+      "source_sha256": "5e09878507c1dc1d298c9cd98273e10c99ef77d7fadff8cc6d0a60f372b706b1",
+      "image_size": [
+        923,
+        1346
+      ],
+      "bbox_format": "xywh",
+      "coordinate_system": "EXIF-oriented pixels",
+      "boxes": [
+        [
+          6,
+          10,
+          456,
+          481
+        ],
+        [
+          458,
+          12,
+          456,
+          477
+        ],
+        [
+          6,
+          499,
+          901,
+          420
+        ],
+        [
+          11,
+          841,
+          566,
+          496
+        ],
+        [
+          570,
+          779,
+          340,
+          560
+        ]
+      ],
+      "verified": true,
+      "split": "dev",
+      "notes": "",
+      "annotation_method": "manual_from_blank",
+      "updated_at": "2026-11-16T11:09:15.626099+08:00"
+    }
+  ]
+}

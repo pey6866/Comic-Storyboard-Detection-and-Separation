@@ -1,0 +1,42 @@
+{
+  "errors": [],
+  "warnings": [
+    "Same comic issue; not an independent multi-work benchmark; pretraining overlap unknown"
+  ],
+  "splits": {
+    "dev": {
+      "pages": 5,
+      "boxes": 28,
+      "files": [
+        "withheld/page_06.jpg",
+        "withheld/page_08.jpg",
+        "withheld/page_09.jpg",
+        "withheld/page_11.jpg",
+        "withheld/page_12.jpg"
+      ],
+      "sha256": "b4a525e4b63aa97bbbe56bf000a055145ec85cc4da19aede733517083451a394"
+    },
+    "test": {
+      "pages": 13,
+      "boxes": 83,
+      "files": [
+        "withheld/page_13.jpg",
+        "withheld/page_14.jpg",
+        "withheld/page_15.jpg",
+        "withheld/page_16.jpg",
+        "withheld/page_17.jpg",
+        "withheld/page_18.jpg",
+        "withheld/page_19.jpg",
+        "withheld/page_20.jpg",
+        "withheld/page_21.jpg",
+        "withheld/page_22.jpg",
+        "withheld/page_23.jpg",
+        "withheld/page_24.jpg",
+        "withheld/page_25.jpg"
+      ],
+      "sha256": "1a4d6dbb800713e665eba74c8fe7f1d32705be60297c42779642bc2f98ae7dad"
+    }
+  },
+  "annotation_quality": "User estimates above 95%; subjective, not measured or calibrated",
+  "matching": "IoU>=0.5, maximum-cardinality one-to-one; micro averages; zero denominator=0"
+}

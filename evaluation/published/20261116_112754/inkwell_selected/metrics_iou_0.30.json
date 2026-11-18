@@ -1,0 +1,172 @@
+{
+  "iou": 0.3,
+  "matching": "maximum-cardinality one-to-one",
+  "zero_denominator": 0,
+  "summary": {
+    "tp": 82,
+    "fp": 0,
+    "fn": 1,
+    "precision": 1.0,
+    "recall": 0.9879518072289156,
+    "f1": 0.9939393939393939
+  },
+  "failed_pages": 0,
+  "pages": [
+    {
+      "source": "withheld/page_13.jpg",
+      "failed": false,
+      "inference_ms": 80.77800000000046,
+      "elapsed_ms": 482.653899999999,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_14.jpg",
+      "failed": false,
+      "inference_ms": 82.17789999999958,
+      "elapsed_ms": 474.2701999999994,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_15.jpg",
+      "failed": false,
+      "inference_ms": 86.4615999999998,
+      "elapsed_ms": 487.33209999999974,
+      "tp": 9,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_16.jpg",
+      "failed": false,
+      "inference_ms": 83.27380000000062,
+      "elapsed_ms": 476.48319999999876,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_17.jpg",
+      "failed": false,
+      "inference_ms": 82.55529999999922,
+      "elapsed_ms": 449.5369999999994,
+      "tp": 10,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_18.jpg",
+      "failed": false,
+      "inference_ms": 79.39819999999997,
+      "elapsed_ms": 363.08430000000055,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    },
+    {
+      "source": "withheld/page_19.jpg",
+      "failed": false,
+      "inference_ms": 82.32319999999937,
+      "elapsed_ms": 474.0926000000005,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_20.jpg",
+      "failed": false,
+      "inference_ms": 84.33359999999901,
+      "elapsed_ms": 438.0886999999998,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_21.jpg",
+      "failed": false,
+      "inference_ms": 80.29920000000068,
+      "elapsed_ms": 428.38419999999996,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_22.jpg",
+      "failed": false,
+      "inference_ms": 80.99580000000017,
+      "elapsed_ms": 464.76820000000174,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_23.jpg",
+      "failed": false,
+      "inference_ms": 82.157500000001,
+      "elapsed_ms": 460.14219999999995,
+      "tp": 6,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_24.jpg",
+      "failed": false,
+      "inference_ms": 82.78329999999912,
+      "elapsed_ms": 478.35189999999983,
+      "tp": 4,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    {
+      "source": "withheld/page_25.jpg",
+      "failed": false,
+      "inference_ms": 82.39190000000107,
+      "elapsed_ms": 463.92820000000154,
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  ]
+}

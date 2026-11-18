@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-18",
+  "python": "3.9.13",
+  "runtime": "Existing private project environment reused only to execute public source tests; not bundled",
+  "tests_without_model": {
+    "discovered": 8,
+    "passed": 7,
+    "skipped": 1,
+    "failures": 0
+  },
+  "tests_with_existing_external_model": {
+    "discovered": 8,
+    "passed": 8,
+    "skipped": 0,
+    "failures": 0,
+    "input": "Generated three-panel PNG, no private comic required"
+  },
+  "metric_recomputation": {
+    "test_comparisons": 9,
+    "development_rows": 15,
+    "parameter_selection_matches": true
+  },
+  "historical_skill_evidence": {
+    "checks": 13,
+    "all_passed": true,
+    "rerun_in_public_release": false
+  },
+  "baseline_demo": {
+    "three_panel_detections": 3,
+    "blank_detections": 0,
+    "exit_code": 0
+  },
+  "word_report": {
+    "pages": 10,
+    "comic_images_embedded": 0,
+    "pdf_generated": false
+  },
+  "limitations": [
+    "Fresh network dependency installation and model download were not repeated",
+    "Historical image inference requires separately authorized original images",
+    "No remote repository was created or uploaded"
+  ]
+}

@@ -1,0 +1,6081 @@
+{
+  "inkwell_default": {
+    "parameters": {
+      "confidence": 0.25,
+      "nms": 0.45
+    },
+    "metrics": [
+      {
+        "iou": 0.3,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 82,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9879518072289156,
+          "f1": 0.9939393939393939
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 81.52869999999979,
+            "elapsed_ms": 460.1406000000008,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 80.81189999999961,
+            "elapsed_ms": 457.6710999999998,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 79.7542,
+            "elapsed_ms": 466.4552000000004,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 79.68699999999984,
+            "elapsed_ms": 474.49910000000006,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 82.01619999999998,
+            "elapsed_ms": 474.57189999999906,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 79.55230000000135,
+            "elapsed_ms": 362.139299999999,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 80.97659999999962,
+            "elapsed_ms": 482.83960000000013,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 84.96799999999993,
+            "elapsed_ms": 465.8129999999989,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 78.28059999999937,
+            "elapsed_ms": 485.442299999999,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 80.10630000000063,
+            "elapsed_ms": 501.0183000000001,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 82.13250000000016,
+            "elapsed_ms": 495.99240000000043,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 85.43440000000047,
+            "elapsed_ms": 526.6911000000007,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 82.6469999999997,
+            "elapsed_ms": 502.2396999999987,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      {
+        "iou": 0.5,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 82,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9879518072289156,
+          "f1": 0.9939393939393939
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 81.52869999999979,
+            "elapsed_ms": 460.1406000000008,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 80.81189999999961,
+            "elapsed_ms": 457.6710999999998,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 79.7542,
+            "elapsed_ms": 466.4552000000004,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 79.68699999999984,
+            "elapsed_ms": 474.49910000000006,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 82.01619999999998,
+            "elapsed_ms": 474.57189999999906,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 79.55230000000135,
+            "elapsed_ms": 362.139299999999,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 80.97659999999962,
+            "elapsed_ms": 482.83960000000013,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 84.96799999999993,
+            "elapsed_ms": 465.8129999999989,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 78.28059999999937,
+            "elapsed_ms": 485.442299999999,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 80.10630000000063,
+            "elapsed_ms": 501.0183000000001,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 82.13250000000016,
+            "elapsed_ms": 495.99240000000043,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 85.43440000000047,
+            "elapsed_ms": 526.6911000000007,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 82.6469999999997,
+            "elapsed_ms": 502.2396999999987,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      {
+        "iou": 0.75,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 82,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9879518072289156,
+          "f1": 0.9939393939393939
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 81.52869999999979,
+            "elapsed_ms": 460.1406000000008,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 80.81189999999961,
+            "elapsed_ms": 457.6710999999998,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 79.7542,
+            "elapsed_ms": 466.4552000000004,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 79.68699999999984,
+            "elapsed_ms": 474.49910000000006,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 82.01619999999998,
+            "elapsed_ms": 474.57189999999906,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 79.55230000000135,
+            "elapsed_ms": 362.139299999999,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 80.97659999999962,
+            "elapsed_ms": 482.83960000000013,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 84.96799999999993,
+            "elapsed_ms": 465.8129999999989,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 78.28059999999937,
+            "elapsed_ms": 485.442299999999,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 80.10630000000063,
+            "elapsed_ms": 501.0183000000001,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 82.13250000000016,
+            "elapsed_ms": 495.99240000000043,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 85.43440000000047,
+            "elapsed_ms": 526.6911000000007,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 82.6469999999997,
+            "elapsed_ms": 502.2396999999987,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      }
+    ],
+    "timing": {
+      "mean_inference_ms": 81.37659230769235,
+      "median_inference_ms": 80.97659999999962,
+      "mean_elapsed_ms": 473.50104615384595
+    },
+    "records": [
+      {
+        "source": "withheld/page_13.jpg",
+        "page_id": "page_13_d2c9ca18ab89",
+        "image_size": [
+          914,
+          1358
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              614,
+              18,
+              285,
+              435
+            ],
+            "confidence": 0.9812824726104736,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              389,
+              467,
+              250,
+              422
+            ],
+            "confidence": 0.979534387588501,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              466,
+              905,
+              432,
+              433
+            ],
+            "confidence": 0.9791199564933777,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              322,
+              18,
+              282,
+              434
+            ],
+            "confidence": 0.9783020615577698,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              647,
+              469,
+              252,
+              422
+            ],
+            "confidence": 0.9752328395843506,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              18,
+              903,
+              440,
+              433
+            ],
+            "confidence": 0.974202036857605,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              16,
+              18,
+              296,
+              434
+            ],
+            "confidence": 0.972758948802948,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              16,
+              467,
+              364,
+              423
+            ],
+            "confidence": 0.9618409276008606,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 81.52869999999979,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 460.1406000000008
+      },
+      {
+        "source": "withheld/page_14.jpg",
+        "page_id": "page_14_72bf33c28fda",
+        "image_size": [
+          914,
+          1346
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              613,
+              459,
+              287,
+              422
+            ],
+            "confidence": 0.9807931780815125,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              17,
+              10,
+              530,
+              438
+            ],
+            "confidence": 0.9803507328033447,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              562,
+              896,
+              341,
+              434
+            ],
+            "confidence": 0.976706862449646,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              24,
+              898,
+              530,
+              432
+            ],
+            "confidence": 0.9749563932418823,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              20,
+              461,
+              292,
+              421
+            ],
+            "confidence": 0.9734483957290649,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              558,
+              11,
+              340,
+              436
+            ],
+            "confidence": 0.9688222408294678,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              317,
+              460,
+              288,
+              426
+            ],
+            "confidence": 0.9593561291694641,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 80.81189999999961,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 457.6710999999998
+      },
+      {
+        "source": "withheld/page_15.jpg",
+        "page_id": "page_15_c9fa3011dea8",
+        "image_size": [
+          914,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              615,
+              903,
+              286,
+              432
+            ],
+            "confidence": 0.9858502745628357,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              384,
+              18,
+              515,
+              210
+            ],
+            "confidence": 0.9835144281387329,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              614,
+              466,
+              287,
+              421
+            ],
+            "confidence": 0.9811447858810425,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              17,
+              17,
+              359,
+              437
+            ],
+            "confidence": 0.978173553943634,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              322,
+              467,
+              284,
+              416
+            ],
+            "confidence": 0.9780494570732117,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              323,
+              903,
+              284,
+              432
+            ],
+            "confidence": 0.9763742685317993,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              18,
+              465,
+              297,
+              420
+            ],
+            "confidence": 0.9754557013511658,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              19,
+              901,
+              295,
+              432
+            ],
+            "confidence": 0.9739702343940735,
+            "crop_file": "panel_008.png"
+          },
+          {
+            "id": 9,
+            "bbox": [
+              385,
+              239,
+              514,
+              215
+            ],
+            "confidence": 0.9715591073036194,
+            "crop_file": "panel_009.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 79.7542,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 466.4552000000004
+      },
+      {
+        "source": "withheld/page_16.jpg",
+        "page_id": "page_16_4eb976561bed",
+        "image_size": [
+          917,
+          1373
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              383,
+              679,
+              519,
+              312
+            ],
+            "confidence": 0.9629271030426025,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              383,
+              351,
+              518,
+              317
+            ],
+            "confidence": 0.9543215036392212,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              383,
+              14,
+              518,
+              325
+            ],
+            "confidence": 0.9517374038696289,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              381,
+              981,
+              519,
+              366
+            ],
+            "confidence": 0.9258372187614441,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              18,
+              0,
+              357,
+              1309
+            ],
+            "confidence": 0.9040182828903198,
+            "crop_file": "panel_005.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 79.68699999999984,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 474.49910000000006
+      },
+      {
+        "source": "withheld/page_17.jpg",
+        "page_id": "page_17_b479b65bea58",
+        "image_size": [
+          914,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              402,
+              19,
+              492,
+              232
+            ],
+            "confidence": 0.9824037551879883,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              680,
+              905,
+              217,
+              432
+            ],
+            "confidence": 0.981395959854126,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              686,
+              497,
+              211,
+              392
+            ],
+            "confidence": 0.9764724373817444,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              15,
+              18,
+              378,
+              461
+            ],
+            "confidence": 0.9745892286300659,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              240,
+              905,
+              211,
+              430
+            ],
+            "confidence": 0.9734381437301636,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              461,
+              905,
+              212,
+              431
+            ],
+            "confidence": 0.9700448513031006,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              16,
+              493,
+              452,
+              396
+            ],
+            "confidence": 0.9696570038795471,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              15,
+              905,
+              219,
+              429
+            ],
+            "confidence": 0.968505322933197,
+            "crop_file": "panel_008.png"
+          },
+          {
+            "id": 9,
+            "bbox": [
+              477,
+              495,
+              202,
+              392
+            ],
+            "confidence": 0.9676420092582703,
+            "crop_file": "panel_009.png"
+          },
+          {
+            "id": 10,
+            "bbox": [
+              402,
+              258,
+              497,
+              225
+            ],
+            "confidence": 0.9398834109306335,
+            "crop_file": "panel_010.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.01619999999998,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 474.57189999999906
+      },
+      {
+        "source": "withheld/page_18.jpg",
+        "page_id": "page_18_d12b8f78ebed",
+        "image_size": [
+          917,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "needs_review",
+        "warnings": [
+          "no_detections"
+        ],
+        "panels": [],
+        "human_verified": false,
+        "inference_ms": 79.55230000000135,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 362.139299999999
+      },
+      {
+        "source": "withheld/page_19.jpg",
+        "page_id": "page_19_6f052deab4b2",
+        "image_size": [
+          912,
+          1378
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              14,
+              12,
+              433,
+              438
+            ],
+            "confidence": 0.9762474298477173,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              455,
+              12,
+              442,
+              438
+            ],
+            "confidence": 0.9754592776298523,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              15,
+              768,
+              361,
+              594
+            ],
+            "confidence": 0.9706960320472717,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              385,
+              1070,
+              511,
+              294
+            ],
+            "confidence": 0.9626527428627014,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              384,
+              767,
+              512,
+              291
+            ],
+            "confidence": 0.9559805393218994,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              18,
+              453,
+              879,
+              320
+            ],
+            "confidence": 0.8947904109954834,
+            "crop_file": "panel_006.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 80.97659999999962,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 482.83960000000013
+      },
+      {
+        "source": "withheld/page_20.jpg",
+        "page_id": "page_20_07ac49dfbd0e",
+        "image_size": [
+          923,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              372,
+              938,
+              242,
+              393
+            ],
+            "confidence": 0.9804642200469971,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              623,
+              938,
+              285,
+              395
+            ],
+            "confidence": 0.9788616299629211,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              326,
+              14,
+              576,
+              496
+            ],
+            "confidence": 0.9734903573989868,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              23,
+              520,
+              340,
+              814
+            ],
+            "confidence": 0.9731746912002563,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              19,
+              15,
+              299,
+              495
+            ],
+            "confidence": 0.9716730713844299,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              370,
+              522,
+              532,
+              251
+            ],
+            "confidence": 0.971275806427002,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              373,
+              785,
+              530,
+              142
+            ],
+            "confidence": 0.9680930376052856,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 84.96799999999993,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 465.8129999999989
+      },
+      {
+        "source": "withheld/page_21.jpg",
+        "page_id": "page_21_0f77c839f2c4",
+        "image_size": [
+          912,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              433,
+              12,
+              464,
+              229
+            ],
+            "confidence": 0.9840974807739258,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              434,
+              254,
+              225,
+              498
+            ],
+            "confidence": 0.9834773540496826,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              667,
+              254,
+              230,
+              499
+            ],
+            "confidence": 0.9821925163269043,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              385,
+              769,
+              513,
+              564
+            ],
+            "confidence": 0.9813754558563232,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              15,
+              18,
+              408,
+              734
+            ],
+            "confidence": 0.9764394760131836,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              15,
+              768,
+              172,
+              565
+            ],
+            "confidence": 0.971476137638092,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              191,
+              769,
+              183,
+              565
+            ],
+            "confidence": 0.9504354000091553,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 78.28059999999937,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 485.442299999999
+      },
+      {
+        "source": "withheld/page_22.jpg",
+        "page_id": "page_22_fced36022872",
+        "image_size": [
+          921,
+          1349
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              13,
+              14,
+              464,
+              421
+            ],
+            "confidence": 0.9747307300567627,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              375,
+              443,
+              170,
+              548
+            ],
+            "confidence": 0.9721701145172119,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              489,
+              13,
+              408,
+              421
+            ],
+            "confidence": 0.9676625728607178,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              199,
+              445,
+              172,
+              553
+            ],
+            "confidence": 0.965492308139801,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              17,
+              447,
+              175,
+              549
+            ],
+            "confidence": 0.9568464756011963,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              23,
+              1005,
+              877,
+              327
+            ],
+            "confidence": 0.9528313875198364,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              551,
+              446,
+              198,
+              550
+            ],
+            "confidence": 0.9069586992263794,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              747,
+              447,
+              156,
+              549
+            ],
+            "confidence": 0.8436314463615417,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 80.10630000000063,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 501.0183000000001
+      },
+      {
+        "source": "withheld/page_23.jpg",
+        "page_id": "page_23_58b3aadfe015",
+        "image_size": [
+          923,
+          1358
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              19,
+              21,
+              536,
+              416
+            ],
+            "confidence": 0.9842069149017334,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              21,
+              885,
+              448,
+              455
+            ],
+            "confidence": 0.97896808385849,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              563,
+              22,
+              340,
+              415
+            ],
+            "confidence": 0.9786046147346497,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              478,
+              887,
+              423,
+              453
+            ],
+            "confidence": 0.9740743041038513,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              21,
+              450,
+              881,
+              214
+            ],
+            "confidence": 0.9519925713539124,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              21,
+              679,
+              880,
+              190
+            ],
+            "confidence": 0.9389960765838623,
+            "crop_file": "panel_006.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.13250000000016,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 495.99240000000043
+      },
+      {
+        "source": "withheld/page_24.jpg",
+        "page_id": "page_24_70f9a33a3f86",
+        "image_size": [
+          923,
+          1355
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              23,
+              690,
+              438,
+              652
+            ],
+            "confidence": 0.9788405895233154,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              478,
+              687,
+              426,
+              653
+            ],
+            "confidence": 0.976024866104126,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              18,
+              22,
+              438,
+              655
+            ],
+            "confidence": 0.9746733903884888,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              474,
+              21,
+              426,
+              653
+            ],
+            "confidence": 0.9741306900978088,
+            "crop_file": "panel_004.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 85.43440000000047,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 526.6911000000007
+      },
+      {
+        "source": "withheld/page_25.jpg",
+        "page_id": "page_25_269350d2f723",
+        "image_size": [
+          910,
+          1378
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_default",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              18,
+              815,
+              881,
+              249
+            ],
+            "confidence": 0.9612154364585876,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              17,
+              549,
+              879,
+              253
+            ],
+            "confidence": 0.9529662132263184,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              19,
+              1079,
+              880,
+              283
+            ],
+            "confidence": 0.947421133518219,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              14,
+              9,
+              881,
+              282
+            ],
+            "confidence": 0.913893461227417,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              13,
+              284,
+              882,
+              252
+            ],
+            "confidence": 0.9067922830581665,
+            "crop_file": "panel_005.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.6469999999997,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 502.2396999999987
+      }
+    ]
+  },
+  "inkwell_selected": {
+    "parameters": {
+      "confidence": 0.4,
+      "nms": 0.45
+    },
+    "metrics": [
+      {
+        "iou": 0.3,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 82,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9879518072289156,
+          "f1": 0.9939393939393939
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 80.77800000000046,
+            "elapsed_ms": 482.653899999999,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 82.17789999999958,
+            "elapsed_ms": 474.2701999999994,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 86.4615999999998,
+            "elapsed_ms": 487.33209999999974,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 83.27380000000062,
+            "elapsed_ms": 476.48319999999876,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 82.55529999999922,
+            "elapsed_ms": 449.5369999999994,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 79.39819999999997,
+            "elapsed_ms": 363.08430000000055,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 82.32319999999937,
+            "elapsed_ms": 474.0926000000005,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 84.33359999999901,
+            "elapsed_ms": 438.0886999999998,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 80.29920000000068,
+            "elapsed_ms": 428.38419999999996,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 80.99580000000017,
+            "elapsed_ms": 464.76820000000174,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 82.157500000001,
+            "elapsed_ms": 460.14219999999995,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 82.78329999999912,
+            "elapsed_ms": 478.35189999999983,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 82.39190000000107,
+            "elapsed_ms": 463.92820000000154,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      {
+        "iou": 0.5,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 82,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9879518072289156,
+          "f1": 0.9939393939393939
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 80.77800000000046,
+            "elapsed_ms": 482.653899999999,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 82.17789999999958,
+            "elapsed_ms": 474.2701999999994,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 86.4615999999998,
+            "elapsed_ms": 487.33209999999974,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 83.27380000000062,
+            "elapsed_ms": 476.48319999999876,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 82.55529999999922,
+            "elapsed_ms": 449.5369999999994,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 79.39819999999997,
+            "elapsed_ms": 363.08430000000055,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 82.32319999999937,
+            "elapsed_ms": 474.0926000000005,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 84.33359999999901,
+            "elapsed_ms": 438.0886999999998,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 80.29920000000068,
+            "elapsed_ms": 428.38419999999996,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 80.99580000000017,
+            "elapsed_ms": 464.76820000000174,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 82.157500000001,
+            "elapsed_ms": 460.14219999999995,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 82.78329999999912,
+            "elapsed_ms": 478.35189999999983,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 82.39190000000107,
+            "elapsed_ms": 463.92820000000154,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      },
+      {
+        "iou": 0.75,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 82,
+          "fp": 0,
+          "fn": 1,
+          "precision": 1.0,
+          "recall": 0.9879518072289156,
+          "f1": 0.9939393939393939
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 80.77800000000046,
+            "elapsed_ms": 482.653899999999,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 82.17789999999958,
+            "elapsed_ms": 474.2701999999994,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 86.4615999999998,
+            "elapsed_ms": 487.33209999999974,
+            "tp": 9,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 83.27380000000062,
+            "elapsed_ms": 476.48319999999876,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 82.55529999999922,
+            "elapsed_ms": 449.5369999999994,
+            "tp": 10,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 79.39819999999997,
+            "elapsed_ms": 363.08430000000055,
+            "tp": 0,
+            "fp": 0,
+            "fn": 1,
+            "precision": 0,
+            "recall": 0.0,
+            "f1": 0.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 82.32319999999937,
+            "elapsed_ms": 474.0926000000005,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 84.33359999999901,
+            "elapsed_ms": 438.0886999999998,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 80.29920000000068,
+            "elapsed_ms": 428.38419999999996,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 80.99580000000017,
+            "elapsed_ms": 464.76820000000174,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 82.157500000001,
+            "elapsed_ms": 460.14219999999995,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 82.78329999999912,
+            "elapsed_ms": 478.35189999999983,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 82.39190000000107,
+            "elapsed_ms": 463.92820000000154,
+            "tp": 5,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          }
+        ]
+      }
+    ],
+    "timing": {
+      "mean_inference_ms": 82.30225384615385,
+      "median_inference_ms": 82.32319999999937,
+      "mean_elapsed_ms": 457.00897692307694
+    },
+    "records": [
+      {
+        "source": "withheld/page_13.jpg",
+        "page_id": "page_13_d2c9ca18ab89",
+        "image_size": [
+          914,
+          1358
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              614,
+              18,
+              285,
+              435
+            ],
+            "confidence": 0.9812824726104736,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              389,
+              467,
+              250,
+              422
+            ],
+            "confidence": 0.979534387588501,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              466,
+              905,
+              432,
+              433
+            ],
+            "confidence": 0.9791199564933777,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              322,
+              18,
+              282,
+              434
+            ],
+            "confidence": 0.9783020615577698,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              647,
+              469,
+              252,
+              422
+            ],
+            "confidence": 0.9752328395843506,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              18,
+              903,
+              440,
+              433
+            ],
+            "confidence": 0.974202036857605,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              16,
+              18,
+              296,
+              434
+            ],
+            "confidence": 0.972758948802948,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              16,
+              467,
+              364,
+              423
+            ],
+            "confidence": 0.9618409276008606,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 80.77800000000046,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 482.653899999999
+      },
+      {
+        "source": "withheld/page_14.jpg",
+        "page_id": "page_14_72bf33c28fda",
+        "image_size": [
+          914,
+          1346
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              613,
+              459,
+              287,
+              422
+            ],
+            "confidence": 0.9807931780815125,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              17,
+              10,
+              530,
+              438
+            ],
+            "confidence": 0.9803507328033447,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              562,
+              896,
+              341,
+              434
+            ],
+            "confidence": 0.976706862449646,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              24,
+              898,
+              530,
+              432
+            ],
+            "confidence": 0.9749563932418823,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              20,
+              461,
+              292,
+              421
+            ],
+            "confidence": 0.9734483957290649,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              558,
+              11,
+              340,
+              436
+            ],
+            "confidence": 0.9688222408294678,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              317,
+              460,
+              288,
+              426
+            ],
+            "confidence": 0.9593561291694641,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.17789999999958,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 474.2701999999994
+      },
+      {
+        "source": "withheld/page_15.jpg",
+        "page_id": "page_15_c9fa3011dea8",
+        "image_size": [
+          914,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              615,
+              903,
+              286,
+              432
+            ],
+            "confidence": 0.9858502745628357,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              384,
+              18,
+              515,
+              210
+            ],
+            "confidence": 0.9835144281387329,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              614,
+              466,
+              287,
+              421
+            ],
+            "confidence": 0.9811447858810425,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              17,
+              17,
+              359,
+              437
+            ],
+            "confidence": 0.978173553943634,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              322,
+              467,
+              284,
+              416
+            ],
+            "confidence": 0.9780494570732117,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              323,
+              903,
+              284,
+              432
+            ],
+            "confidence": 0.9763742685317993,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              18,
+              465,
+              297,
+              420
+            ],
+            "confidence": 0.9754557013511658,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              19,
+              901,
+              295,
+              432
+            ],
+            "confidence": 0.9739702343940735,
+            "crop_file": "panel_008.png"
+          },
+          {
+            "id": 9,
+            "bbox": [
+              385,
+              239,
+              514,
+              215
+            ],
+            "confidence": 0.9715591073036194,
+            "crop_file": "panel_009.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 86.4615999999998,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 487.33209999999974
+      },
+      {
+        "source": "withheld/page_16.jpg",
+        "page_id": "page_16_4eb976561bed",
+        "image_size": [
+          917,
+          1373
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              383,
+              679,
+              519,
+              312
+            ],
+            "confidence": 0.9629271030426025,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              383,
+              351,
+              518,
+              317
+            ],
+            "confidence": 0.9543215036392212,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              383,
+              14,
+              518,
+              325
+            ],
+            "confidence": 0.9517374038696289,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              381,
+              981,
+              519,
+              366
+            ],
+            "confidence": 0.9258372187614441,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              18,
+              0,
+              357,
+              1309
+            ],
+            "confidence": 0.9040182828903198,
+            "crop_file": "panel_005.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 83.27380000000062,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 476.48319999999876
+      },
+      {
+        "source": "withheld/page_17.jpg",
+        "page_id": "page_17_b479b65bea58",
+        "image_size": [
+          914,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              402,
+              19,
+              492,
+              232
+            ],
+            "confidence": 0.9824037551879883,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              680,
+              905,
+              217,
+              432
+            ],
+            "confidence": 0.981395959854126,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              686,
+              497,
+              211,
+              392
+            ],
+            "confidence": 0.9764724373817444,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              15,
+              18,
+              378,
+              461
+            ],
+            "confidence": 0.9745892286300659,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              240,
+              905,
+              211,
+              430
+            ],
+            "confidence": 0.9734381437301636,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              461,
+              905,
+              212,
+              431
+            ],
+            "confidence": 0.9700448513031006,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              16,
+              493,
+              452,
+              396
+            ],
+            "confidence": 0.9696570038795471,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              15,
+              905,
+              219,
+              429
+            ],
+            "confidence": 0.968505322933197,
+            "crop_file": "panel_008.png"
+          },
+          {
+            "id": 9,
+            "bbox": [
+              477,
+              495,
+              202,
+              392
+            ],
+            "confidence": 0.9676420092582703,
+            "crop_file": "panel_009.png"
+          },
+          {
+            "id": 10,
+            "bbox": [
+              402,
+              258,
+              497,
+              225
+            ],
+            "confidence": 0.9398834109306335,
+            "crop_file": "panel_010.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.55529999999922,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 449.5369999999994
+      },
+      {
+        "source": "withheld/page_18.jpg",
+        "page_id": "page_18_d12b8f78ebed",
+        "image_size": [
+          917,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "needs_review",
+        "warnings": [
+          "no_detections"
+        ],
+        "panels": [],
+        "human_verified": false,
+        "inference_ms": 79.39819999999997,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 363.08430000000055
+      },
+      {
+        "source": "withheld/page_19.jpg",
+        "page_id": "page_19_6f052deab4b2",
+        "image_size": [
+          912,
+          1378
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              14,
+              12,
+              433,
+              438
+            ],
+            "confidence": 0.9762474298477173,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              455,
+              12,
+              442,
+              438
+            ],
+            "confidence": 0.9754592776298523,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              15,
+              768,
+              361,
+              594
+            ],
+            "confidence": 0.9706960320472717,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              385,
+              1070,
+              511,
+              294
+            ],
+            "confidence": 0.9626527428627014,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              384,
+              767,
+              512,
+              291
+            ],
+            "confidence": 0.9559805393218994,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              18,
+              453,
+              879,
+              320
+            ],
+            "confidence": 0.8947904109954834,
+            "crop_file": "panel_006.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.32319999999937,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 474.0926000000005
+      },
+      {
+        "source": "withheld/page_20.jpg",
+        "page_id": "page_20_07ac49dfbd0e",
+        "image_size": [
+          923,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              372,
+              938,
+              242,
+              393
+            ],
+            "confidence": 0.9804642200469971,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              623,
+              938,
+              285,
+              395
+            ],
+            "confidence": 0.9788616299629211,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              326,
+              14,
+              576,
+              496
+            ],
+            "confidence": 0.9734903573989868,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              23,
+              520,
+              340,
+              814
+            ],
+            "confidence": 0.9731746912002563,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              19,
+              15,
+              299,
+              495
+            ],
+            "confidence": 0.9716730713844299,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              370,
+              522,
+              532,
+              251
+            ],
+            "confidence": 0.971275806427002,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              373,
+              785,
+              530,
+              142
+            ],
+            "confidence": 0.9680930376052856,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 84.33359999999901,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 438.0886999999998
+      },
+      {
+        "source": "withheld/page_21.jpg",
+        "page_id": "page_21_0f77c839f2c4",
+        "image_size": [
+          912,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              433,
+              12,
+              464,
+              229
+            ],
+            "confidence": 0.9840974807739258,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              434,
+              254,
+              225,
+              498
+            ],
+            "confidence": 0.9834773540496826,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              667,
+              254,
+              230,
+              499
+            ],
+            "confidence": 0.9821925163269043,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              385,
+              769,
+              513,
+              564
+            ],
+            "confidence": 0.9813754558563232,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              15,
+              18,
+              408,
+              734
+            ],
+            "confidence": 0.9764394760131836,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              15,
+              768,
+              172,
+              565
+            ],
+            "confidence": 0.971476137638092,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              191,
+              769,
+              183,
+              565
+            ],
+            "confidence": 0.9504354000091553,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 80.29920000000068,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 428.38419999999996
+      },
+      {
+        "source": "withheld/page_22.jpg",
+        "page_id": "page_22_fced36022872",
+        "image_size": [
+          921,
+          1349
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              13,
+              14,
+              464,
+              421
+            ],
+            "confidence": 0.9747307300567627,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              375,
+              443,
+              170,
+              548
+            ],
+            "confidence": 0.9721701145172119,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              489,
+              13,
+              408,
+              421
+            ],
+            "confidence": 0.9676625728607178,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              199,
+              445,
+              172,
+              553
+            ],
+            "confidence": 0.965492308139801,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              17,
+              447,
+              175,
+              549
+            ],
+            "confidence": 0.9568464756011963,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              23,
+              1005,
+              877,
+              327
+            ],
+            "confidence": 0.9528313875198364,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              551,
+              446,
+              198,
+              550
+            ],
+            "confidence": 0.9069586992263794,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              747,
+              447,
+              156,
+              549
+            ],
+            "confidence": 0.8436314463615417,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 80.99580000000017,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 464.76820000000174
+      },
+      {
+        "source": "withheld/page_23.jpg",
+        "page_id": "page_23_58b3aadfe015",
+        "image_size": [
+          923,
+          1358
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              19,
+              21,
+              536,
+              416
+            ],
+            "confidence": 0.9842069149017334,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              21,
+              885,
+              448,
+              455
+            ],
+            "confidence": 0.97896808385849,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              563,
+              22,
+              340,
+              415
+            ],
+            "confidence": 0.9786046147346497,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              478,
+              887,
+              423,
+              453
+            ],
+            "confidence": 0.9740743041038513,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              21,
+              450,
+              881,
+              214
+            ],
+            "confidence": 0.9519925713539124,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              21,
+              679,
+              880,
+              190
+            ],
+            "confidence": 0.9389960765838623,
+            "crop_file": "panel_006.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.157500000001,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 460.14219999999995
+      },
+      {
+        "source": "withheld/page_24.jpg",
+        "page_id": "page_24_70f9a33a3f86",
+        "image_size": [
+          923,
+          1355
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              23,
+              690,
+              438,
+              652
+            ],
+            "confidence": 0.9788405895233154,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              478,
+              687,
+              426,
+              653
+            ],
+            "confidence": 0.976024866104126,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              18,
+              22,
+              438,
+              655
+            ],
+            "confidence": 0.9746733903884888,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              474,
+              21,
+              426,
+              653
+            ],
+            "confidence": 0.9741306900978088,
+            "crop_file": "panel_004.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.78329999999912,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 478.35189999999983
+      },
+      {
+        "source": "withheld/page_25.jpg",
+        "page_id": "page_25_269350d2f723",
+        "image_size": [
+          910,
+          1378
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "inkwell_selected",
+        "model_revision": {
+          "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+          "providers": [
+            "CPUExecutionProvider"
+          ],
+          "input_shape": [
+            "batch",
+            3,
+            "height",
+            "width"
+          ],
+          "custom_metadata": {
+            "date": "2026-05-31T11:35:34.809288",
+            "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+            "author": "Ultralytics",
+            "version": "8.4.43",
+            "task": "detect",
+            "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+            "docs": "http<LOCAL_PATH_REDACTED>",
+            "stride": "32",
+            "batch": "1",
+            "imgsz": "[640, 640]",
+            "names": "{0: 'panel'}",
+            "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+            "channels": "3",
+            "end2end": "False"
+          }
+        },
+        "parameters": {
+          "confidence": 0.4,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              18,
+              815,
+              881,
+              249
+            ],
+            "confidence": 0.9612154364585876,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              17,
+              549,
+              879,
+              253
+            ],
+            "confidence": 0.9529662132263184,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              19,
+              1079,
+              880,
+              283
+            ],
+            "confidence": 0.947421133518219,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              14,
+              9,
+              881,
+              282
+            ],
+            "confidence": 0.913893461227417,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              13,
+              284,
+              882,
+              252
+            ],
+            "confidence": 0.9067922830581665,
+            "crop_file": "panel_005.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 82.39190000000107,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 463.92820000000154
+      }
+    ]
+  },
+  "opencv_baseline": {
+    "parameters": {
+      "confidence": 0.25,
+      "nms": 0.45
+    },
+    "metrics": [
+      {
+        "iou": 0.3,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 77,
+          "fp": 0,
+          "fn": 6,
+          "precision": 1.0,
+          "recall": 0.927710843373494,
+          "f1": 0.9625
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 6.154300000002166,
+            "elapsed_ms": 404.0959999999991,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 6.357200000000063,
+            "elapsed_ms": 389.0158000000028,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 5.301700000000409,
+            "elapsed_ms": 393.78250000000037,
+            "tp": 8,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8888888888888888,
+            "f1": 0.9411764705882353
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 6.354599999998101,
+            "elapsed_ms": 423.9636999999981,
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 5.801299999998122,
+            "elapsed_ms": 401.49470000000065,
+            "tp": 9,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1": 0.9473684210526315
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 6.222799999999751,
+            "elapsed_ms": 426.797999999998,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 6.707999999999714,
+            "elapsed_ms": 448.76059999999995,
+            "tp": 4,
+            "fp": 0,
+            "fn": 2,
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1": 0.8
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 6.059000000000481,
+            "elapsed_ms": 386.48520000000275,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 5.413499999999516,
+            "elapsed_ms": 375.60530000000017,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 5.337800000003057,
+            "elapsed_ms": 415.3712000000027,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 5.161499999999819,
+            "elapsed_ms": 411.7663,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 5.759600000001086,
+            "elapsed_ms": 437.36379999999997,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 5.107800000001106,
+            "elapsed_ms": 379.5035999999996,
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888
+          }
+        ]
+      },
+      {
+        "iou": 0.5,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 75,
+          "fp": 2,
+          "fn": 8,
+          "precision": 0.974025974025974,
+          "recall": 0.9036144578313253,
+          "f1": 0.9375
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 6.154300000002166,
+            "elapsed_ms": 404.0959999999991,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 6.357200000000063,
+            "elapsed_ms": 389.0158000000028,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 5.301700000000409,
+            "elapsed_ms": 393.78250000000037,
+            "tp": 7,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.875,
+            "recall": 0.7777777777777778,
+            "f1": 0.8235294117647058
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 6.354599999998101,
+            "elapsed_ms": 423.9636999999981,
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 5.801299999998122,
+            "elapsed_ms": 401.49470000000065,
+            "tp": 9,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.9,
+            "f1": 0.9473684210526315
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 6.222799999999751,
+            "elapsed_ms": 426.797999999998,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 6.707999999999714,
+            "elapsed_ms": 448.76059999999995,
+            "tp": 3,
+            "fp": 1,
+            "fn": 3,
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 6.059000000000481,
+            "elapsed_ms": 386.48520000000275,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 5.413499999999516,
+            "elapsed_ms": 375.60530000000017,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 5.337800000003057,
+            "elapsed_ms": 415.3712000000027,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 5.161499999999819,
+            "elapsed_ms": 411.7663,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 5.759600000001086,
+            "elapsed_ms": 437.36379999999997,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 5.107800000001106,
+            "elapsed_ms": 379.5035999999996,
+            "tp": 4,
+            "fp": 0,
+            "fn": 1,
+            "precision": 1.0,
+            "recall": 0.8,
+            "f1": 0.8888888888888888
+          }
+        ]
+      },
+      {
+        "iou": 0.75,
+        "matching": "maximum-cardinality one-to-one",
+        "zero_denominator": 0,
+        "summary": {
+          "tp": 72,
+          "fp": 5,
+          "fn": 11,
+          "precision": 0.935064935064935,
+          "recall": 0.8674698795180723,
+          "f1": 0.9
+        },
+        "failed_pages": 0,
+        "pages": [
+          {
+            "source": "withheld/page_13.jpg",
+            "failed": false,
+            "inference_ms": 6.154300000002166,
+            "elapsed_ms": 404.0959999999991,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_14.jpg",
+            "failed": false,
+            "inference_ms": 6.357200000000063,
+            "elapsed_ms": 389.0158000000028,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_15.jpg",
+            "failed": false,
+            "inference_ms": 5.301700000000409,
+            "elapsed_ms": 393.78250000000037,
+            "tp": 7,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.875,
+            "recall": 0.7777777777777778,
+            "f1": 0.8235294117647058
+          },
+          {
+            "source": "withheld/page_16.jpg",
+            "failed": false,
+            "inference_ms": 6.354599999998101,
+            "elapsed_ms": 423.9636999999981,
+            "tp": 3,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6666666666666666
+          },
+          {
+            "source": "withheld/page_17.jpg",
+            "failed": false,
+            "inference_ms": 5.801299999998122,
+            "elapsed_ms": 401.49470000000065,
+            "tp": 8,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.8888888888888888,
+            "recall": 0.8,
+            "f1": 0.8421052631578947
+          },
+          {
+            "source": "withheld/page_18.jpg",
+            "failed": false,
+            "inference_ms": 6.222799999999751,
+            "elapsed_ms": 426.797999999998,
+            "tp": 1,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_19.jpg",
+            "failed": false,
+            "inference_ms": 6.707999999999714,
+            "elapsed_ms": 448.76059999999995,
+            "tp": 3,
+            "fp": 1,
+            "fn": 3,
+            "precision": 0.75,
+            "recall": 0.5,
+            "f1": 0.6
+          },
+          {
+            "source": "withheld/page_20.jpg",
+            "failed": false,
+            "inference_ms": 6.059000000000481,
+            "elapsed_ms": 386.48520000000275,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_21.jpg",
+            "failed": false,
+            "inference_ms": 5.413499999999516,
+            "elapsed_ms": 375.60530000000017,
+            "tp": 7,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_22.jpg",
+            "failed": false,
+            "inference_ms": 5.337800000003057,
+            "elapsed_ms": 415.3712000000027,
+            "tp": 8,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_23.jpg",
+            "failed": false,
+            "inference_ms": 5.161499999999819,
+            "elapsed_ms": 411.7663,
+            "tp": 6,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_24.jpg",
+            "failed": false,
+            "inference_ms": 5.759600000001086,
+            "elapsed_ms": 437.36379999999997,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0
+          },
+          {
+            "source": "withheld/page_25.jpg",
+            "failed": false,
+            "inference_ms": 5.107800000001106,
+            "elapsed_ms": 379.5035999999996,
+            "tp": 3,
+            "fp": 1,
+            "fn": 2,
+            "precision": 0.75,
+            "recall": 0.6,
+            "f1": 0.6666666666666666
+          }
+        ]
+      }
+    ],
+    "timing": {
+      "mean_inference_ms": 5.826084615384876,
+      "median_inference_ms": 5.801299999998122,
+      "mean_elapsed_ms": 407.23128461538494
+    },
+    "records": [
+      {
+        "source": "withheld/page_13.jpg",
+        "page_id": "page_13_d2c9ca18ab89",
+        "image_size": [
+          914,
+          1358
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              467,
+              907,
+              431,
+              431
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              18,
+              905,
+              439,
+              430
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              648,
+              472,
+              250,
+              417
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              390,
+              471,
+              249,
+              417
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              17,
+              469,
+              364,
+              419
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              615,
+              20,
+              284,
+              432
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              322,
+              19,
+              284,
+              432
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              15,
+              17,
+              297,
+              433
+            ],
+            "confidence": null,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 6.154300000002166,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 404.0959999999991
+      },
+      {
+        "source": "withheld/page_14.jpg",
+        "page_id": "page_14_72bf33c28fda",
+        "image_size": [
+          914,
+          1346
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              20,
+              900,
+              536,
+              432
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              562,
+              899,
+              342,
+              429
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              319,
+              464,
+              288,
+              418
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              18,
+              464,
+              295,
+              419
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              612,
+              463,
+              290,
+              418
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              12,
+              13,
+              537,
+              435
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              556,
+              11,
+              342,
+              435
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 6.357200000000063,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 389.0158000000028
+      },
+      {
+        "source": "withheld/page_15.jpg",
+        "page_id": "page_15_c9fa3011dea8",
+        "image_size": [
+          914,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              616,
+              905,
+              284,
+              430
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              322,
+              905,
+              286,
+              430
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              18,
+              904,
+              297,
+              430
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              615,
+              469,
+              285,
+              419
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              321,
+              469,
+              287,
+              418
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              17,
+              464,
+              298,
+              422
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              383,
+              18,
+              518,
+              435
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              17,
+              18,
+              359,
+              434
+            ],
+            "confidence": null,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.301700000000409,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 393.78250000000037
+      },
+      {
+        "source": "withheld/page_16.jpg",
+        "page_id": "page_16_4eb976561bed",
+        "image_size": [
+          917,
+          1373
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              382,
+              681,
+              519,
+              685
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              383,
+              353,
+              520,
+              316
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              383,
+              15,
+              519,
+              324
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              17,
+              14,
+              359,
+              1317
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 6.354599999998101,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 423.9636999999981
+      },
+      {
+        "source": "withheld/page_17.jpg",
+        "page_id": "page_17_b479b65bea58",
+        "image_size": [
+          914,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              461,
+              907,
+              215,
+              430
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              681,
+              906,
+              216,
+              433
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              14,
+              905,
+              439,
+              432
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              686,
+              497,
+              211,
+              392
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              479,
+              497,
+              202,
+              392
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              14,
+              494,
+              456,
+              395
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              400,
+              258,
+              498,
+              232
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              15,
+              19,
+              378,
+              459
+            ],
+            "confidence": null,
+            "crop_file": "panel_008.png"
+          },
+          {
+            "id": 9,
+            "bbox": [
+              400,
+              15,
+              498,
+              237
+            ],
+            "confidence": null,
+            "crop_file": "panel_009.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.801299999998122,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 401.49470000000065
+      },
+      {
+        "source": "withheld/page_18.jpg",
+        "page_id": "page_18_d12b8f78ebed",
+        "image_size": [
+          917,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              13,
+              11,
+              892,
+              1323
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 6.222799999999751,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 426.797999999998
+      },
+      {
+        "source": "withheld/page_19.jpg",
+        "page_id": "page_19_6f052deab4b2",
+        "image_size": [
+          912,
+          1378
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              385,
+              1073,
+              513,
+              295
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              15,
+              770,
+              362,
+              593
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              15,
+              13,
+              883,
+              1045
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              13,
+              13,
+              436,
+              437
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 6.707999999999714,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 448.76059999999995
+      },
+      {
+        "source": "withheld/page_20.jpg",
+        "page_id": "page_20_07ac49dfbd0e",
+        "image_size": [
+          923,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              621,
+              941,
+              287,
+              394
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              371,
+              941,
+              244,
+              391
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              371,
+              788,
+              534,
+              139
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              22,
+              527,
+              342,
+              807
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              367,
+              525,
+              538,
+              248
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              325,
+              16,
+              579,
+              494
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              19,
+              16,
+              300,
+              494
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 6.059000000000481,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 386.48520000000275
+      },
+      {
+        "source": "withheld/page_21.jpg",
+        "page_id": "page_21_0f77c839f2c4",
+        "image_size": [
+          912,
+          1351
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              194,
+              770,
+              182,
+              562
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              17,
+              770,
+              170,
+              563
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              384,
+              768,
+              516,
+              566
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              433,
+              256,
+              226,
+              497
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              667,
+              255,
+              231,
+              498
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              432,
+              15,
+              465,
+              225
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              14,
+              15,
+              411,
+              737
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.413499999999516,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 375.60530000000017
+      },
+      {
+        "source": "withheld/page_22.jpg",
+        "page_id": "page_22_fced36022872",
+        "image_size": [
+          921,
+          1349
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              19,
+              1008,
+              886,
+              326
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              16,
+              451,
+              178,
+              544
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              375,
+              449,
+              171,
+              545
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              198,
+              449,
+              172,
+              545
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              747,
+              448,
+              154,
+              544
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              550,
+              448,
+              193,
+              545
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          },
+          {
+            "id": 7,
+            "bbox": [
+              486,
+              15,
+              412,
+              416
+            ],
+            "confidence": null,
+            "crop_file": "panel_007.png"
+          },
+          {
+            "id": 8,
+            "bbox": [
+              10,
+              11,
+              470,
+              423
+            ],
+            "confidence": null,
+            "crop_file": "panel_008.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.337800000003057,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 415.3712000000027
+      },
+      {
+        "source": "withheld/page_23.jpg",
+        "page_id": "page_23_58b3aadfe015",
+        "image_size": [
+          923,
+          1358
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              477,
+              887,
+              425,
+              452
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              21,
+              887,
+              449,
+              452
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              19,
+              682,
+              883,
+              187
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              18,
+              453,
+              885,
+              211
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          },
+          {
+            "id": 5,
+            "bbox": [
+              562,
+              23,
+              340,
+              413
+            ],
+            "confidence": null,
+            "crop_file": "panel_005.png"
+          },
+          {
+            "id": 6,
+            "bbox": [
+              16,
+              22,
+              540,
+              413
+            ],
+            "confidence": null,
+            "crop_file": "panel_006.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.161499999999819,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 411.7663
+      },
+      {
+        "source": "withheld/page_24.jpg",
+        "page_id": "page_24_70f9a33a3f86",
+        "image_size": [
+          923,
+          1355
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              20,
+              691,
+              442,
+              650
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              476,
+              690,
+              429,
+              649
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              468,
+              23,
+              433,
+              649
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              15,
+              23,
+              443,
+              651
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.759600000001086,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 437.36379999999997
+      },
+      {
+        "source": "withheld/page_25.jpg",
+        "page_id": "page_25_269350d2f723",
+        "image_size": [
+          910,
+          1378
+        ],
+        "coordinate_system": "EXIF-oriented RGB pixels; xywh; id is not reading order",
+        "detector": "opencv_baseline",
+        "model_revision": {
+          "method": "OpenCV Otsu dark contours; min area 2%; no rotation",
+          "confidence": null
+        },
+        "parameters": {
+          "confidence": 0.25,
+          "nms": 0.45,
+          "review_threshold": 0.5
+        },
+        "status": "success",
+        "warnings": [],
+        "panels": [
+          {
+            "id": 1,
+            "bbox": [
+              17,
+              1080,
+              880,
+              287
+            ],
+            "confidence": null,
+            "crop_file": "panel_001.png"
+          },
+          {
+            "id": 2,
+            "bbox": [
+              16,
+              817,
+              881,
+              248
+            ],
+            "confidence": null,
+            "crop_file": "panel_002.png"
+          },
+          {
+            "id": 3,
+            "bbox": [
+              13,
+              549,
+              883,
+              254
+            ],
+            "confidence": null,
+            "crop_file": "panel_003.png"
+          },
+          {
+            "id": 4,
+            "bbox": [
+              14,
+              14,
+              882,
+              521
+            ],
+            "confidence": null,
+            "crop_file": "panel_004.png"
+          }
+        ],
+        "human_verified": false,
+        "inference_ms": 5.107800000001106,
+        "preview_files": {
+          "color": "preview.png",
+          "gray": "preview_gray.png",
+          "grayscale": "grayscale.png"
+        },
+        "elapsed_ms": 379.5035999999996
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "revision": "11e45578024f8bcfdcf1ff3faf2d9e8a80e3c919",
+  "acquired_at": "2026-11-12T22:03:49.8255677+08:00",
+  "repository": "https://github.com/ultralytics/skills",
+  "sha256": {
+    "SKILL.md": "030ac0a236ebcc00665177c2dc869391a28404d10abba1131cf0ebe6e5d5cd38",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+  },
+  "skill_path": "skills/yolo-inference/SKILL.md",
+  "license": "AGPL-3.0 (repository LICENSE)"
+}

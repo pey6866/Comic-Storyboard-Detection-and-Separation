@@ -1,0 +1,1172 @@
+[
+  {
+    "confidence": 0.1,
+    "nms": 0.3,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1": 0.9655172413793104
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.1,
+    "nms": 0.45,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.9032258064516129,
+      "recall": 1.0,
+      "f1": 0.9491525423728814
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.1,
+    "nms": 0.6,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 5,
+      "fn": 0,
+      "precision": 0.8484848484848485,
+      "recall": 1.0,
+      "f1": 0.9180327868852459
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 4,
+        "fn": 0,
+        "precision": 0.5,
+        "recall": 1.0,
+        "f1": 0.6666666666666666
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.875,
+        "recall": 1.0,
+        "f1": 0.9333333333333333
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.25,
+    "nms": 0.3,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 1,
+      "fn": 0,
+      "precision": 0.9655172413793104,
+      "recall": 1.0,
+      "f1": 0.9824561403508771
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.8888888888888888
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.25,
+    "nms": 0.45,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 2,
+      "fn": 0,
+      "precision": 0.9333333333333333,
+      "recall": 1.0,
+      "f1": 0.9655172413793104
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 2,
+        "fn": 0,
+        "precision": 0.6666666666666666,
+        "recall": 1.0,
+        "f1": 0.8
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.25,
+    "nms": 0.6,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 3,
+      "fn": 0,
+      "precision": 0.9032258064516129,
+      "recall": 1.0,
+      "f1": 0.9491525423728814
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.5714285714285714,
+        "recall": 1.0,
+        "f1": 0.7272727272727273
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.4,
+    "nms": 0.3,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.4,
+    "nms": 0.45,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.4,
+    "nms": 0.6,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.5,
+    "nms": 0.3,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.5,
+    "nms": 0.45,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.5,
+    "nms": 0.6,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 28,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 7,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.65,
+    "nms": 0.3,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 27,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9642857142857143,
+      "f1": 0.9818181818181818
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.65,
+    "nms": 0.45,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 27,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9642857142857143,
+      "f1": 0.9818181818181818
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  },
+  {
+    "confidence": 0.65,
+    "nms": 0.6,
+    "iou": 0.5,
+    "matching": "maximum-cardinality one-to-one",
+    "zero_denominator": 0,
+    "summary": {
+      "tp": 27,
+      "fp": 0,
+      "fn": 1,
+      "precision": 1.0,
+      "recall": 0.9642857142857143,
+      "f1": 0.9818181818181818
+    },
+    "failed_pages": 0,
+    "pages": [
+      {
+        "source": "withheld/page_06.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_08.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 5,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_09.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 4,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      {
+        "source": "withheld/page_11.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8571428571428571,
+        "f1": 0.9230769230769231
+      },
+      {
+        "source": "withheld/page_12.jpg",
+        "failed": false,
+        "inference_ms": null,
+        "elapsed_ms": null,
+        "tp": 6,
+        "fp": 0,
+        "fn": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      }
+    ]
+  }
+]

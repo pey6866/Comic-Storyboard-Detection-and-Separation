@@ -1,0 +1,44 @@
+{
+  "confidence": 0.4,
+  "nms": 0.45,
+  "review_threshold": 0.5,
+  "imgsz": 640,
+  "selected_at": "2026-11-16T11:27:59.538935+08:00",
+  "dev_metrics": {
+    "tp": 28,
+    "fp": 0,
+    "fn": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0
+  },
+  "model": {
+    "sha256": "f240e1296efd048126b26ea4ffeddc97d7c3aa667a37e3127c2afc6d5e9b9578",
+    "providers": [
+      "CPUExecutionProvider"
+    ],
+    "input_shape": [
+      "batch",
+      3,
+      "height",
+      "width"
+    ],
+    "custom_metadata": {
+      "date": "2026-05-31T11:35:34.809288",
+      "description": "Ultralytics best model trained on <LOCAL_PATH_REDACTED>",
+      "author": "Ultralytics",
+      "version": "8.4.43",
+      "task": "detect",
+      "license": "AGPL-3.0 License (http<LOCAL_PATH_REDACTED>",
+      "docs": "http<LOCAL_PATH_REDACTED>",
+      "stride": "32",
+      "batch": "1",
+      "imgsz": "[640, 640]",
+      "names": "{0: 'panel'}",
+      "args": "{'batch': 1, 'half': False, 'dynamic': True, 'simplify': True, 'opset': None, 'nms': False}",
+      "channels": "3",
+      "end2end": "False"
+    }
+  },
+  "note": "Frozen before test inference; test results must not be used to reselect"
+}

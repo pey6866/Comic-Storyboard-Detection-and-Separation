@@ -1,0 +1,50 @@
+[
+  {
+    "file": "case_1.jpg",
+    "source": "withheld/page_18.jpg",
+    "metrics": {
+      "source": "withheld/page_18.jpg",
+      "failed": false,
+      "inference_ms": 79.39819999999997,
+      "elapsed_ms": 363.08430000000055,
+      "tp": 0,
+      "fp": 0,
+      "fn": 1,
+      "precision": 0,
+      "recall": 0.0,
+      "f1": 0.0
+    }
+  },
+  {
+    "file": "case_2.jpg",
+    "source": "withheld/page_13.jpg",
+    "metrics": {
+      "source": "withheld/page_13.jpg",
+      "failed": false,
+      "inference_ms": 80.77800000000046,
+      "elapsed_ms": 482.653899999999,
+      "tp": 8,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  {
+    "file": "case_3.jpg",
+    "source": "withheld/page_14.jpg",
+    "metrics": {
+      "source": "withheld/page_14.jpg",
+      "failed": false,
+      "inference_ms": 82.17789999999958,
+      "elapsed_ms": 474.2701999999994,
+      "tp": 7,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  }
+]

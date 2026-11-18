@@ -1,0 +1,10 @@
+{
+  "confidence": 0.4,
+  "nms": 0.45,
+  "review_threshold": 0.5,
+  "input_size": 640,
+  "device": "CPUExecutionProvider",
+  "selected_on": "5 development pages, 28 manual boxes",
+  "provenance": "evaluation/published/20261116_112754/selected_parameters.json",
+  "note": "Evaluation recommendation; not automatically loaded by the current webpage."
+}
